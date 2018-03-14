@@ -20,15 +20,142 @@
     'g' => green
 */
 
-var initial_state = [ '.', '.', '.', '.', '.' ];
+var initial_state = ['.', '.', 'b', '.', '.'];
 
 function main() {
-
+  
   //////////////////////////////////
   ////                          ////
   //// v YOUR CODE BELOW HERE v ////
   ////                          ////
   //////////////////////////////////
+ for (let i = 0; i = initial_state.length; i++) {
+  if (onBlue()) {
+    erase();
+    moveRight();
+    draw();
+  }
+ } moveRight();
+
+
+
+//   var n = 3;
+
+//   for (let i = 0; i < initial_state.length; i++) {
+//     if ((i + 1) % n === 0) {
+//     moveRight();
+//   } else {
+//     erase();
+//     moveRight();
+//   }
+// }
+
+
+//   for (let i = 0; i < initial_state.length; i++) {
+//     if (i % 2 === 0) {
+//     moveRight();
+//   } else {
+//     erase();
+//     moveRight();
+//   }
+// }
+
+// for (i = 0; i < initial_state.length; i ++) {
+//  if (i % 2 === 1) {
+//    moveRight();
+//   } else {
+//   erase();
+//   moveRight();
+//    }
+//  }
+
+  
+  // var n = 2;
+
+  // for (let i = 0; i < n; i++) {
+  //   useBlue();
+  //   draw();
+  //   moveRight();
+  // }
+
+
+
+  // if (onBlue()) {
+  //   useBlue();
+  // } else if (onGreen()){
+  //   useGreen();
+  // }
+
+  // for (let i =0; i < initial_state.length; i++){
+  //   draw();
+  //   moveRight();
+  // }
+  
+
+  // var i = 0;
+  // while (initial_state[i]) {
+  //   useBlue();
+  //   draw();
+  //   moveRight();
+  //   i++;
+  // }
+
+  // for (let i = 0; i < initial_state.length; i++){
+  //   if (i === 0){
+
+  //   }
+  // }
+
+  // if (onBlue()) {
+  //   erase();
+  //   moveRight();
+  //   moveRight();
+  //   moveRight();
+  //   moveRight();
+  //   useBlue();
+  //   draw();
+  // } else if (onGreen()) {
+  //   erase();
+  //   moveRight();
+  //   moveRight();
+  //   moveRight();
+  //   moveRight();
+  //   useGreen();
+  //   draw();
+  // } else {
+  //   erase();
+  // }
+
+  // if (onBlue()) {
+  //   useBlue()
+  // } else if (onGreen()) {
+  //   useGreen()
+  // }
+  //   moveRight();
+  //   moveRight();
+  //   moveRight();
+  //   moveRight();
+  //   moveRight();
+  // }
+
+  // if ( onGreen() || onBlue() ) {
+  //   erase();
+  //   moveRight();
+  //   moveRight();
+  //   moveRight();
+  //   moveRight();
+  //   draw();
+  // } 
+  // //   moveRight();
+  // //   moveRight();
+  // //   moveRight();
+  // //   moveRight();
+  // //   moveRight();
+  // // }
+  // moveRight();
+  // moveRight();
+  // moveRight();
+  // moveRight();
 
 
 
